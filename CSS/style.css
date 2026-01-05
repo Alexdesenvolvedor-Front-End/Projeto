@@ -1,8 +1,7 @@
-
 /* RESET CSS */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +12,7 @@
 /* CORES */
 
 
-:root{
+:root {
     --primary: #ff6b35;
     --dark: #1a1a1a;
     --gray: #6c757d;
