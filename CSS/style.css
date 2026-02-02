@@ -35,22 +35,40 @@ body {
 
 /* HERO */
 
-.hero {
-    margin-top: 12em;
+.wrapper {
+    background: linear-gradient(135deg, #fff9f5, white);
 
 }
+
+
+
+.hero {
+    margin-top: 25em;
+
+
+}
+
+
 
 
 
 .hero h1 {
     text-align: center;
     font-size: 2.5em;
-    font-weight: bold;
-
+    font-weight: bolder;
+    margin-top: 1em;
 }
 
 
 .paragraf {
+    text-align: center;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+
+
+.botao-hero {
     text-align: center;
 }
 
@@ -58,8 +76,36 @@ body {
 
 .btn {
     background-color: var(--primary);
-   
+    padding: .6em 2em;
+    color: #fff;
+    font-weight: 600;
+}
 
 
 
+
+
+
+.info-lista {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 2em;
+}
+
+
+
+strong{
+    color: var(--primary);
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+
+
+.info-lista p{
+    font-size: .9em;
+    color: var(--gray);
+    font-weight: 700;
 }
