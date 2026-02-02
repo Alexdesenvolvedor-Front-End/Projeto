@@ -96,16 +96,63 @@ body {
 
 
 
-strong{
+.info-lista strong {
     color: var(--primary);
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 700;
 }
 
 
 
-.info-lista p{
+.info-lista p {
     font-size: .9em;
     color: var(--gray);
     font-weight: 700;
+}
+
+
+
+.section-title {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: .3em;
+    font-weight: 600;
+}
+
+
+
+.texto-whatsapp {
+    text-align: center;
+    font-size: 1em;
+    color: var(--gray);
+
+}
+
+
+
+.card {
+    height: 100%;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+
+
+.card-body{
+   padding: 1.5em;
+}
+
+
+.card img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+ 
+}
+
+
+
+.card-title{
+    font-weight: 600;
+    padding: 15px 15px 10px;
 }
