@@ -221,7 +221,7 @@ body {
     position: absolute;
     top: 10px;
     left: 12px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
     padding: .6em;
 
 }
