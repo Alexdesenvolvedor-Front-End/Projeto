@@ -32,22 +32,24 @@ body {
 }
 
 
+/* ==================== MENU HAMBÚRGUER ==================== */
+/* Ícone da navbar mobile */
 
-
-.bi-list{
+.bi-list {
     color: #fff;
     font-size: 1.4em;
 }
 
 
+/* Remove borda do botão do menu */
 
-
-.navbar-toggler{
+.navbar-toggler {
     border: none;
 }
 
+/* Remove o contorno azul ao clicar */
 
-.navbar-toggler:focus{
+.navbar-toggler:focus {
     box-shadow: none;
     outline: none;
 }
@@ -336,19 +338,19 @@ footer h3 {
 .section-redesocias a {
     text-decoration: none;
     padding-bottom: 1em;
-    
+
 }
 
 
 
 
-.footer-copy{
+.footer-copy {
     text-align: center;
     color: #fff;
     padding-bottom: 2em;
     font-size: .8em;
 
- 
-   
+
+
 
 }
