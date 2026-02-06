@@ -32,8 +32,8 @@
 .text-offcanvas {
     color: #6c757d;
     font-size: .8em;
-  
-   
+
+
 }
 
 
@@ -42,11 +42,12 @@ summary {
     margin-left: 1em;
     font-size: .9em;
     font-weight: 600;
+    padding: .9em;
 }
 
 
 .text-offcanvas i {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 
@@ -268,8 +269,6 @@ body {
 
 
 
-
-
 .badge {
     position: absolute;
     top: 10px;
@@ -382,8 +381,62 @@ footer h3 {
     color: #fff;
     padding-bottom: 2em;
     font-size: .8em;
+}
 
 
 
 
+.cta-form-title{
+    font-size: .9em;
+    text-align: center;
+    font-weight: 400;
+    color: #e55a2b;
+}
+
+
+
+
+.form-delivery {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+
+
+}
+
+
+.form-delivery input {
+    padding: .3em;
+    border-radius: 3px;
+    border: transparent;
+    background-color: #FFB74D;
+}
+
+
+
+.form-delivery input:focus{
+    outline: none;
+}
+
+
+
+
+.form-delivery input::placeholder{
+    color: #000;
+    font-size: .8em;
+    padding-left: .7em;
+    
+}
+
+
+
+
+
+button{
+    padding:.4em;
+    background-color: #e55a2b;
+    border: none;
+    color: #fff;
 }
