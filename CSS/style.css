@@ -455,3 +455,20 @@ button {
     border: none;
     color: #fff;
 }
+
+
+
+
+
+
+/* =========================
+   TABLET / NOTEBOOK (>= 768px)
+========================= */
+@media (min-width: 768px) {
+    body {
+        background-image: none;
+    }
+
+
+
+}
