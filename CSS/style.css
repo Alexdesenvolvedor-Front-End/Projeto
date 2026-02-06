@@ -351,6 +351,22 @@ footer h3 {
 
 
 
+
+details footer {
+    background-color: transparent;
+}
+
+
+
+
+details footer p {
+    font-size: .8em;
+    text-align: center;
+    margin-top: 5em;
+}
+
+
+
 .title-footer {
     color: #fff;
     text-align: center;
@@ -378,15 +394,14 @@ footer h3 {
 
 .footer-copy {
     text-align: center;
-    color: #fff;
     padding-bottom: 2em;
     font-size: .8em;
+    color: #fff;
 }
 
 
 
-
-.cta-form-title{
+.cta-form-title {
     font-size: .9em;
     text-align: center;
     font-weight: 400;
@@ -416,26 +431,26 @@ footer h3 {
 
 
 
-.form-delivery input:focus{
+.form-delivery input:focus {
     outline: none;
 }
 
 
 
 
-.form-delivery input::placeholder{
+.form-delivery input::placeholder {
     color: #000;
     font-size: .8em;
     padding-left: .7em;
-    
+
 }
 
 
 
 
 
-button{
-    padding:.4em;
+button {
+    padding: .4em;
     background-color: #e55a2b;
     border: none;
     color: #fff;
