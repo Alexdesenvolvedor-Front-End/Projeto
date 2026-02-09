@@ -22,6 +22,7 @@
 
 
 
+
 /* ==================== OFFCANVAS ==================== */
 
 .offcanvas {
@@ -468,6 +469,90 @@ button {
     body {
         background-image: none;
     }
+
+
+
+
+    /* ==================== NAV ==================== */
+
+
+    .hero {
+        margin-top: -.5em;
+    }
+
+
+    .logo {
+        padding-top: 1em;
+        text-decoration: none;
+        font-size: 2em;
+        color: #000;
+        font-weight: bolder;
+
+    }
+
+
+
+    .menu {
+        display: flex;
+        gap: 1em;
+        list-style: none;
+        padding-top: 3.7em;
+
+    }
+
+
+    .menu a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: var(--gray);
+        transition: 0.3s ease-in-out;
+
+    }
+
+
+
+    .menu a:hover {
+        color: #ff9800;
+        transform: scale(1.05);
+    }
+
+
+
+
+    .wrapper {
+        background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+
+    }
+
+
+
+
+    .wrapper h1 {
+        color: #b2b2b2;
+        font-size: 4em;
+        font-weight: 600;
+        line-height: 1.1em;
+
+    }
+
+
+
+    .paragraf {
+        color: #fff;
+
+    }
+
+
+   
+
+
+
+
+
+
+
+
 
 
 
