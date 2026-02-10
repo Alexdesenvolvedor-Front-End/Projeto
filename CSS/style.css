@@ -1,6 +1,6 @@
-/* RESET CSS */
-
-
+/* ==================================================
+   RESET CSS
+================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +8,9 @@
 }
 
 
-
-/* CORES */
-
-
+/* ==================================================
+   VARIÁVEIS DE CORES
+================================================== */
 :root {
     --primary: #FFC107;
     --dark: #1a1a1a;
@@ -21,22 +20,17 @@
 }
 
 
-
-
-/* ==================== OFFCANVAS ==================== */
-
+/* ==================================================
+   OFFCANVAS
+================================================== */
 .offcanvas {
     background-color: #f8f9fa;
 }
 
-
 .text-offcanvas {
     color: #6c757d;
     font-size: .8em;
-
-
 }
-
 
 summary {
     color: #374151;
@@ -46,16 +40,14 @@ summary {
     padding: .9em;
 }
 
-
 .text-offcanvas i {
     margin-left: 2em;
 }
 
 
-
-
-
-
+/* ==================================================
+   CONFIGURAÇÕES GERAIS
+================================================== */
 html,
 body {
     overflow-x: hidden;
@@ -67,22 +59,17 @@ body {
 }
 
 
-/* ==================== MENU HAMBÚRGUER ==================== */
-/* Ícone da navbar mobile */
-
+/* ==================================================
+   MENU HAMBÚRGUER / NAVBAR MOBILE
+================================================== */
 .bi-list {
     color: #fff;
     font-size: 1.4em;
 }
 
-
-/* Remove borda do botão do menu */
-
 .navbar-toggler {
     border: none;
 }
-
-/* Remove o contorno azul ao clicar */
 
 .navbar-toggler:focus {
     box-shadow: none;
@@ -90,24 +77,16 @@ body {
 }
 
 
-
-/* HERO */
-
+/* ==================================================
+   HERO
+================================================== */
 .wrapper {
     background: linear-gradient(135deg, #fff9f5, white);
 }
 
-
-
 .hero {
     margin-top: 25em;
-
-
 }
-
-
-
-
 
 .hero h1 {
     text-align: center;
@@ -116,33 +95,29 @@ body {
     margin-top: 1em;
 }
 
-
 .paragraf {
     text-align: center;
     color: var(--gray);
     font-weight: 500;
 }
 
-
-
 .botao-hero {
     text-align: center;
 }
 
-
-
-.btn {
+.btn-link {
     background-color: var(--primary);
     padding: .6em 2em;
     color: #fff;
     font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 
-
-
-
-
+/* ==================================================
+   LISTA DE INFORMAÇÕES
+================================================== */
 .info-lista {
     display: flex;
     flex-direction: column;
@@ -151,15 +126,11 @@ body {
     margin-top: 2em;
 }
 
-
-
 .info-lista strong {
     color: var(--primary);
     font-size: 1.5em;
     font-weight: 700;
 }
-
-
 
 .info-lista p {
     font-size: .9em;
@@ -168,7 +139,9 @@ body {
 }
 
 
-
+/* ==================================================
+   TÍTULOS E TEXTOS
+================================================== */
 .section-title {
     text-align: center;
     font-size: 1.8em;
@@ -177,63 +150,48 @@ body {
     font-weight: 600;
 }
 
-
-
 .texto-whatsapp {
     text-align: center;
     font-size: 1em;
     color: var(--gray);
-
 }
 
 
-
+/* ==================================================
+   CARDS DE PRODUTO
+================================================== */
 .card {
     max-width: 350px;
     border-radius: 12px;
     overflow: hidden;
     margin: 0 auto;
-
-
 }
-
-
 
 .card-body {
     padding: 1.5em;
     background-color: #FFF8F0;
 }
 
-
 .card img {
     max-width: 400px;
     height: 200px;
     object-fit: cover;
-
 }
-
-
 
 .card-title {
     font-weight: 600;
 }
-
-
 
 .card-description {
     color: var(--gray);
     font-size: .9em;
 }
 
-
-
-
 .destaque {
     margin: 2em;
     color: var(--primary);
     font-weight: 600;
 }
-
 
 .btn-produto {
     background-color: var(--primary);
@@ -244,16 +202,14 @@ body {
 }
 
 
-
-
+/* ==================================================
+   SOBRE / ABOUT
+================================================== */
 .about-section {
     background-color: #F5F5F5;
     margin-top: 2em;
     height: 600px;
 }
-
-
-
 
 .about-section p {
     text-align: center;
@@ -261,14 +217,9 @@ body {
     font-size: .9em;
 }
 
-
-
 .section-card {
     position: relative;
 }
-
-
-
 
 .badge {
     position: absolute;
@@ -276,32 +227,25 @@ body {
     left: 12px;
     background-color: var(--primary);
     padding: .6em;
-
 }
-
-
 
 .about-section ul li strong {
     color: #000;
 }
 
-
 .about-section ul li {
     list-style-type: none;
     color: var(--gray);
-
 }
 
 
-
-
+/* ==================================================
+   CTA
+================================================== */
 .cta {
     background: linear-gradient(135deg, #e55a2b, #FFB74D);
     height: 250px;
 }
-
-
-
 
 .title-cta {
     text-align: center;
@@ -311,35 +255,28 @@ body {
     color: #fff;
 }
 
-
-
 .cta p {
     text-align: center;
     color: #fff;
     font-size: 1.1em;
 }
 
-
-
 .btn-cta {
     text-align: center;
-
-
 }
-
 
 .btn-white {
     background-color: #fff;
     color: #e55a2b;
-
 }
 
 
-
+/* ==================================================
+   FOOTER
+================================================== */
 footer {
     background-color: #000;
 }
-
 
 footer h3 {
     color: #fff;
@@ -347,18 +284,11 @@ footer h3 {
     text-align: center;
     font-size: 1.2em;
     font-weight: 600;
-
 }
-
-
-
 
 details footer {
     background-color: transparent;
 }
-
-
-
 
 details footer p {
     font-size: .8em;
@@ -366,32 +296,22 @@ details footer p {
     margin-top: 5em;
 }
 
-
-
 .title-footer {
     color: #fff;
     text-align: center;
 }
-
-
 
 .section-redesocias {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3em;
-
 }
-
 
 .section-redesocias a {
     text-decoration: none;
     padding-bottom: 1em;
-
 }
-
-
-
 
 .footer-copy {
     text-align: center;
@@ -401,7 +321,9 @@ details footer p {
 }
 
 
-
+/* ==================================================
+   FORMULÁRIO
+================================================== */
 .cta-form-title {
     font-size: .9em;
     text-align: center;
@@ -409,19 +331,13 @@ details footer p {
     color: #e55a2b;
 }
 
-
-
-
 .form-delivery {
     display: flex;
     flex-direction: column;
     max-width: 300px;
     margin: 0 auto;
     gap: 10px;
-
-
 }
-
 
 .form-delivery input {
     padding: .3em;
@@ -430,25 +346,15 @@ details footer p {
     background-color: #FFB74D;
 }
 
-
-
 .form-delivery input:focus {
     outline: none;
 }
-
-
-
 
 .form-delivery input::placeholder {
     color: #000;
     font-size: .8em;
     padding-left: .7em;
-
 }
-
-
-
-
 
 button {
     padding: .4em;
@@ -458,28 +364,19 @@ button {
 }
 
 
-
-
-
-
-/* =========================
-   TABLET / NOTEBOOK (>= 768px)
-========================= */
+/* ==================================================
+   MEDIA QUERY — TABLET / NOTEBOOK
+================================================== */
 @media (min-width: 768px) {
+
     body {
         background-image: none;
     }
 
-
-
-
-    /* ==================== NAV ==================== */
-
-
+    /* NAV */
     .hero {
         margin-top: -.5em;
     }
-
 
     .logo {
         padding-top: 1em;
@@ -487,19 +384,14 @@ button {
         font-size: 2em;
         color: #000;
         font-weight: bolder;
-
     }
-
-
 
     .menu {
         display: flex;
         gap: 1em;
         list-style: none;
         padding-top: 3.7em;
-
     }
-
 
     .menu a {
         display: inline-block;
@@ -507,52 +399,94 @@ button {
         font-size: 1.2em;
         color: var(--gray);
         transition: 0.3s ease-in-out;
-
     }
-
-
 
     .menu a:hover {
         color: #ff9800;
         transform: scale(1.05);
     }
 
-
-
-
+    /* HERO DESKTOP */
     .wrapper {
         background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
-
     }
-
-
-
 
     .wrapper h1 {
         color: #b2b2b2;
         font-size: 4em;
         font-weight: 600;
         line-height: 1.1em;
-
     }
-
-
 
     .paragraf {
         color: #fff;
+    }
+
+
+
+    .section-img {
+        border-radius: 22px;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+    }
+
+
+    .info-lista p {
+        color: #fff;
+    }
+
+
+
+    .btn-link {
+        display: inline-block;
+        transition: 0.3s ease-in-out;
+        margin: .2em;
+    }
+
+
+
+    .btn-link:hover {
+        color: #000;
+        transform: scale(1.05);
+
 
     }
 
 
-   
+    .section-title {
+        font-size: 2em;
+
+    }
 
 
 
+    .about-section {
+        background: linear-gradient(135deg, #cfcfcf, #f0f0f0);
+        padding: 2.5em;
+    }
 
 
 
+    .about-section img {
+        border-radius: 22px;
+    }
 
 
+    .about-section img {
+       box-shadow: 0 8px 24px rgba(33, 37, 41, 0.3);
+    }
+
+
+    .about-section p {
+        color: #5C4033;
+        font-weight: 600;
+        font-size: .9em;
+    }
+
+
+
+    .about-section ul li {
+        color: #5C4033;
+    }
 
 
 
