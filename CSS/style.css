@@ -472,7 +472,7 @@ button {
 
 
     .about-section img {
-       box-shadow: 0 8px 24px rgba(33, 37, 41, 0.3);
+        box-shadow: 0 8px 24px rgba(33, 37, 41, 0.3);
     }
 
 
@@ -487,7 +487,11 @@ button {
     .about-section ul li {
         color: #5C4033;
     }
+   
 
+
+
+ 
 
 
 }
