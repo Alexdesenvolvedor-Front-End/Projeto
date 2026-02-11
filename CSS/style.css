@@ -261,13 +261,17 @@ body {
     font-size: 1.1em;
 }
 
-.btn-cta {
+.botao-cta {
     text-align: center;
 }
 
-.btn-white {
+.botao-white {
     background-color: #fff;
     color: #e55a2b;
+    text-decoration: none;
+    padding: 13px 12px;
+    border-radius: 5px;
+
 }
 
 
@@ -305,7 +309,7 @@ details footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3em;
+    gap: 1em;
 }
 
 .section-redesocias a {
@@ -316,7 +320,7 @@ details footer p {
 .footer-copy {
     text-align: center;
     padding-bottom: 2em;
-    font-size: .8em;
+    font-size: .7em;
     color: #fff;
 }
 
@@ -452,6 +456,23 @@ button {
     }
 
 
+
+    .card {
+        transition: 0.3s ease-in-out;
+    }
+
+
+
+    .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+    }
+
+
+
+
+
     .section-title {
         font-size: 2em;
 
@@ -467,12 +488,8 @@ button {
 
 
     .about-section img {
-        border-radius: 22px;
-    }
-
-
-    .about-section img {
         box-shadow: 0 8px 24px rgba(33, 37, 41, 0.3);
+        border-radius: 22px;
     }
 
 
@@ -487,11 +504,49 @@ button {
     .about-section ul li {
         color: #5C4033;
     }
-   
+
+
+    .about-section strong {
+        font-size: 1em;
+    }
 
 
 
- 
+
+    .title-cta {
+        font-size: 2.5em;
+    }
+
+
+
+    .botao-cta {
+        transition: 3s ease-in-out;
+    }
+
+
+    .botao-cta:hover {
+        transform: scale(1.1);
+    }
+
+
+
+    .title-footer {
+        font-size: .8em;
+    }
+
+
+
+    .footer-copy {
+        font-size: .7em;
+    }
+
+
+
+    .section-redesocias {
+        gap: 1em;
+    }
+
+
 
 
 }
